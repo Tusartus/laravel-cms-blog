@@ -93,3 +93,7 @@ Route::group(['as'=>'author.','prefix'=>'author','namespace'=>'Author','middlewa
 
 
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
