@@ -58,7 +58,7 @@
                 <div class="dropdown-menu">
                      @if(Auth::user()->role->id == 2)
                   <a class="dropdown-item" href="{{ route('author.dashboard') }}">Dashboard</a>
-     @endif
+                     @endif
       @if(Auth::user()->role->id == 1)
 
                   <a class="dropdown-item" href="{{ route('admin.dashboard') }}"> Dashboard</a>
