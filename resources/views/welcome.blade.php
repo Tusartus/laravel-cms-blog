@@ -149,7 +149,7 @@ blog
 
 
 
-                             @foreach($post->tags as $tag)
+                             @foreach($posts->tags as $tag)
                         <li><a href="{{ route('tag.posts',$tag->slug) }}">{{ $tag->name }}</a></li>
                              @endforeach
                          </ul>
