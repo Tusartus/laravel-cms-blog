@@ -142,18 +142,10 @@ blog
 
 
 
-                     <div class="single_widget tag_widget">
-                         <h4 class="text-uppercase pb-20">Tag Clouds</h4>
-                         <ul>
+                    
 
 
 
-
-                             @foreach($post->tags as $tag)
-                        <li><a href="{{ route('tag.posts',$tag->slug) }}">{{ $tag->name }}</a></li>
-                             @endforeach
-                         </ul>
-                     </div>
                  </div>
 
 
